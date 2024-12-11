@@ -24,4 +24,4 @@ Examples:
 
 `--- Reflection Below This Line ---`
 Through this assignment, I learned how to build interactive data visualization dashboards using Python in conjunction with GeoPandas, a geographic information library, and Folium, a visualization tool. Specifically, I mastered how to use GeoPandas' points_from_xy function to convert data frames to geographic coordinates, and to beautify the map presentation by setting the map's centroid, zoom level, and custom color scale (e.g., cmap=“magma”) through Folium. In addition, I learned to present data hierarchically by adjusting data ranges (VMIN and VMAX) to highlight key hotspots in the data. Under the Streamlit framework, I learned how to embed dynamic maps into interactive dashboards using the streamlit_folium module to provide users with an intuitive map interaction experience. This assignment gave me a deeper understanding of the importance of programming techniques in geographic data processing and visualization, and at the same time enhanced my ability to comprehensively apply data visualization tools and techniques. 
-
+    
