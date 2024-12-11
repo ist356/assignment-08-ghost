@@ -19,7 +19,7 @@ df = pd.read_csv('./cache/top_locations_mappable.csv')
 st.title('Top Locations for Parking Tickets within Syracuse')
 st.caption('This dashboard shows the parking tickets that were issued in the top locations with $1,000 or more in total aggregate violation amounts.')
 
-gdf = gpd.GeoDataFrame(df, geometry=gpd.points_from_xy(df.lon, df.lat))
+gdf = gpd.GeoDataFrame(df, geometry=gpd.points_from_xy(df.lon, df.lat)) 
 m = folium.Map(location=CUSE, zoom_start=ZOOM)
 cuse_map = gdf.explore(gdf['amount'], m=m, 
                        cmap="magma",vmin=VMIN, vmax=VMAX, 

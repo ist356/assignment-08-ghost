@@ -1,5 +1,5 @@
 import pandas as pd
-import streamlit as st   
+import streamlit as st    
 
 
 def top_locations(violations_df : pd.DataFrame, threshold=1000) -> pd.DataFrame:

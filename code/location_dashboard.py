@@ -14,7 +14,7 @@ df = pd.read_csv('./cache/tickets_in_top_locations.csv')
 st.title('Top Locations for Parking Tickets within Syracuse')
 st.caption('This dashboard shows the parking tickets that were issued in the top locations with $1,000 or more in total aggregate violation amounts.')
 
-locations = df['location'].unique()
+locations = df['location'].unique() 
 
 location = st.selectbox('Select a location:', locations)
 if location:
