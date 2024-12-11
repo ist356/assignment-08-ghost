@@ -6,7 +6,7 @@ import streamlit_folium as sf
 import folium
 import pandas as pd
 import geopandas as gpd
-# these constants should help you get the map to look better
+# these constants should help you get the map to look better 
 # you need to figure out where to use them
 CUSE = (43.0481, -76.1474)  # center of map
 ZOOM = 14                   # zoom level
